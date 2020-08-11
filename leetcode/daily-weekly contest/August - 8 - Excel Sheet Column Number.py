@@ -16,7 +16,7 @@ def titleToNumber(s: str) -> int:
     return int(answer)
 
 
-x = titleToNumber('A')
+x = titleToNumber('AB')
 print(x)
 
 
