@@ -57,11 +57,7 @@ def print_symbol(flag):
 def print_pattern():
     cases = int(input())
     for case in range(cases):
-        a, b, h, w = input().split()
-        a = int(a)
-        b = int(b)
-        h = int(h)
-        w = int(w)
+        a, b, h, w = map(int, input().split())
         for i in range(a*h + a + 1):
             for j in range(b*w + b + 1):
                 if (i % (h+1) != 0) and (j % (w+1) != 0):
